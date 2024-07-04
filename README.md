@@ -11,3 +11,5 @@ https://github.com/react-native-community/cli/issues/2279
       <SafeAreaView>  - реально важно ! чтобы приложение не заходило за технические данные
       <ScrollView style={styles.scrollView}> - ВАЖНО - без этого элемента не отображается текст и кнопки
       <View style={styles.container}> - - ВАЖНО - без этого элемента не отображается текст и кнопки
+
+3) env файл не распознается наандроид - !!

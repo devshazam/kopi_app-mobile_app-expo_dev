@@ -2,11 +2,11 @@ import axios from "axios";
 
 
 const $host = axios.create({
-    baseURL: process.env.EXPO_PUBLIC_REACT_APP_API_URL,
+    baseURL: 'https://kopi34.ru/',
 })
 
 const $authHost = axios.create({
-    baseURL: process.env.EXPO_PUBLIC_REACT_APP_API_URL,
+    baseURL: 'https://kopi34.ru/',
 })
 
 const authInterceptor = (config: any) => {
