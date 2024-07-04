@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "expo-n14",
-    "slug": "expo-n14",
+    "name": "Kopi34",
+    "slug": "kopi34",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -19,7 +19,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.devshazam.kopi34"
     },
     "web": {
       "bundler": "metro",
@@ -27,10 +28,24 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
-      "expo-router"
+      "expo-router",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ]
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "e6d8a69b-166a-4151-9554-5d486bbe0aae"
+      }
     }
   }
 }
